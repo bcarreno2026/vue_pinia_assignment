@@ -8,7 +8,7 @@ import Summary from './components/Summary.vue'
   <div class="main-workspace">
     <header class="app-header">
       <h1>Sandwich Deli</h1>
-      <p>Select your Ingredients</p>
+      <p class="salad-title">Salad Bar</p>
     </header>
 
     <div class="content-grid">
@@ -62,5 +62,12 @@ p {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.salad-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0ef72d;
+  text-align: center;
 }
 </style>

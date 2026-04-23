@@ -4,7 +4,6 @@ const store = useSandwichStore()
 </script>
 
 <template>
-  <!-- We added the 'menu-box' class here -->
   <div class="menu-box">
     <h3>Select Ingredients</h3>
     <div class="button-group">
